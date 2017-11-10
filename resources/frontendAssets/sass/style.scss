@@ -1,0 +1,42 @@
+
+/* google fonts */
+@import "../../assets/sass/custom/google-font";
+
+/* bootstrap */
+@import './../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+/* font awesome */
+@import "./../../assets/libs/font-awesome-4.7.0/scss/font-awesome";
+
+/* animate */
+@import './../../../bower_components/animatewithsass/animate';
+
+/* Owl Carousel */
+@import "../vendor/owl.carousel/assets/owl.carousel.css";
+@import "../vendor/owl.carousel/assets/owl.theme.default.css";
+
+/* magic popup */
+@import "../vendor/magnific-popup/magnific-popup.css";
+
+/* Porto */
+@import "porto/theme";
+@import "porto/theme-elements";
+@import "porto/theme-blog";
+@import "porto/theme-shop";
+
+/* rs plugin */
+@import "../vendor/rs-plugin/css/settings.css";
+@import "../vendor/rs-plugin/css/layers.css";
+@import "../vendor/rs-plugin/css/navigation.css";
+
+/* circle-flip-slide-show */
+@import "../vendor/circle-flip-slideshow/css/component.css";
+@import "../vendor/nivo-slider/nivo-slider.css";
+@import "../vendor/nivo-slider/default/default.css";
+
+/* skin */
+@import "porto/skins/default";
+
+@import "../vendor/light-box/css/lightbox.css";
+
+@import "custom";

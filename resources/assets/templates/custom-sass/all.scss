@@ -1,0 +1,178 @@
+
+.px-navbar-image {
+    font-size: 24px;
+    margin-right: -9px;
+}
+
+.px-nav-item {
+    a {
+        &.active {
+            color: #fff;
+            font-weight: bold;
+        }
+    }
+}
+
+.px-footer {
+    background: #edf0f1;
+    padding-top: 15px !important;
+}
+
+.px-footer, .px-footer a {
+    color: #656a73;
+}
+
+.px-footer, .px-footer hr {
+    border-color: #e4e8ea;
+}
+
+.px-footer-bottom {
+    position: absolute;
+}
+
+.custom-file-control {
+    margin-top: 6px !important;
+}
+
+.avatar-preview {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+
+.textarea-small {
+    height: 80px !important;
+    width: 100% !important;
+}
+
+.textarea-medium {
+    width: 100% !important;
+    height: 210px !important;
+}
+
+.textarea-large {
+    height: 450px !important;
+}
+
+.note-editor {
+    &.panel {
+        margin-bottom: 0 !important;
+    }
+}
+
+span {
+    &.empty {
+        color: pink;
+        font-style: italic;
+    }
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.cover-table-preview {
+    height: 50px;
+}
+
+.option-column {
+    width: 90px !important;
+    cursor: default !important;
+    text-align: center;
+
+    &:after {
+        display: none !important;
+    }
+}
+
+.status-column {
+    width: 125px !important;
+}
+
+.cover-column {
+    width: 120px !important;
+}
+
+.slug-column {
+    width: 290px !important;
+}
+
+.auto-column {
+    width: auto !important;
+}
+
+.hide-over-text {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.dataTables_wrapper {
+    .table-header {
+        background: none !important;
+        border: none !important;
+        padding: 0 0 15px 0 !important;
+        color: #444 !important;
+    }
+}
+
+.DT-lf-right {
+    float: none !important;
+}
+
+.DT-search {
+    float: right !important;
+}
+
+.page-header {
+    margin-bottom: 10px !important;
+}
+
+.dataTables_filter {
+    input {
+        border: 1px solid #d6d6d6 !important;
+
+        &:focus {
+            border-color: #1B8ECE !important;
+        }
+    }
+}
+
+.processing {
+    position: relative;
+    cursor: default;
+    user-select: none;
+    @include opacity(.5);
+}
+
+.modal-body {
+    line-height: 28px;
+}
+
+.modal-lg {
+    width: 900px !important;
+}
+
+.video-preview {
+    cursor: pointer;
+}
+
+fieldset {
+    .nav > li > a {
+        padding: 6px 20px 4px 0;
+        font-weight: 600;
+    }
+}
+
+button {
+    &.bootstrap-touchspin-up, &.bootstrap-touchspin-down {
+        padding: 4px 12px 5px 12px;
+    }
+}
+
+@import "signin";

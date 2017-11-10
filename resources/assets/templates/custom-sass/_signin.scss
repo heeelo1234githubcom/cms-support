@@ -1,0 +1,101 @@
+
+@media (min-width: 544px) {
+    .modal-dialog {
+        width: 400px;
+        margin: 60px auto;
+    }
+}
+
+.page-signin-modal {
+
+    position: relative;
+    top: 60px;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 1;
+    display: block;
+    font-family: $font-family-sans-serif;
+
+    .modal-dialog {
+
+        .modal-content {
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,.1);
+            padding: 25px;
+
+            h4 {
+                font-size: 16px;
+                margin-top: 10px;
+                font-weight: 600;
+            }
+
+            .page-signin-form-group {
+                position: relative;
+            }
+
+            .form-control {
+                box-shadow: none!important;
+                height: 39px;
+                padding: 8px 18px;
+                border-radius: 3px;
+                padding-left: 50px !important;
+                font-size: 15px;
+            }
+
+            .page-signin-icon {
+                position: absolute;
+                line-height: 21px;
+                width: 36px;
+                border-color: rgba(0, 0, 0, .14);
+                border-right-width: 1px;
+                border-right-style: solid;
+                left: 1px;
+                top: 9px;
+                text-align: center;
+                font-size: 15px;
+            }
+
+            .login-or {
+                position: relative;
+                font-size: 18px;
+                color: #aaa;
+                width: 340px;
+                margin: 25px auto 0;
+            }
+
+            .span-or {
+                display: block;
+                position: absolute;
+                left: 29%;
+                top: -10px;
+                background-color: #fff;
+                width: 150px;
+                text-align: center;
+                font-size: 13px;
+                font-style: italic;
+            }
+
+            .hr-or {
+                background-color: #cdcdcd;
+                height: 0px;
+                margin-top: 0px !important;
+                margin-bottom: 0px !important;
+            }
+
+            .social-buttons {
+                margin-top: 25px;
+                text-align: center;
+
+                .btn {
+                    margin: auto 5px;
+                }
+            }
+        }
+    }
+
+    .m-bt-10 {
+        margin-bottom: 10px;
+    }
+}
